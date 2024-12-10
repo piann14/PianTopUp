@@ -1,0 +1,476 @@
+/* Banner */
+.banner img {
+    border-radius: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Carousel Custom Styles */
+.carousel-inner img {
+    object-fit: cover;
+    /* Menyesuaikan gambar tanpa merusak aspek rasio */
+    width: 100%;
+    /* Memenuhi lebar penuh */
+    height: 300px;
+    /* Sesuaikan tinggi untuk membuat gambar lebih horizontal */
+}
+
+/* Carousel Custom Styles */
+.carousel-inner img {
+    object-fit: cover;
+    /* Menyesuaikan gambar tanpa merusak aspek rasio */
+    width: 100%;
+    /* Memenuhi lebar penuh */
+    height: 200px;
+    /* Tinggi banner yang lebih rendah agar kompak */
+}
+
+/* Styling untuk Caption */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    /* Transparansi latar belakang teks */
+    border-radius: 10px;
+    /* Sudut membulat */
+    padding: 10px 20px;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    /* Ukuran judul */
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    /* Ukuran deskripsi */
+}
+
+/* Responsif untuk perangkat kecil */
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 150px;
+        /* Ukuran banner lebih kecil di perangkat kecil */
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.25rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.875rem;
+    }
+}
+
+
+/* Flash Sale Section */
+.flash-sale .card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.flash-sale .card:hover {
+    transform: scale(1.05);
+}
+
+/* Game Cards */
+.games .card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.games .card:hover {
+    transform: scale(1.05);
+}
+
+.games .card-title {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+    border-radius: 2px;
+}
+
+
+/* Navbar Styling */
+.navbar {
+    background-color: #28a745 !important;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-toggler {
+    border: none;
+    /* Menghilangkan border default */
+    padding: 0;
+    /* Menghilangkan padding agar tombol lebih ramping */
+    background: transparent;
+    /* Menghilangkan latar belakang */
+}
+
+.navbar-toggler-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    /* Lebar tombol */
+    height: 22px;
+    /* Tinggi total */
+}
+
+.navbar-toggler-icon span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    /* Ukuran garis */
+    background-color: white;
+    /* Warna garis */
+    border-radius: 2px;
+    transition: transform 0.3s ease;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #28a745 !important;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-toggler {
+    border: none;
+    /* Menghilangkan border default */
+    padding: 0;
+    background: transparent;
+}
+
+/* Hamburger Menu (Tiga Garis) */
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    /* Lebar keseluruhan hamburger */
+    height: 22px;
+    /* Tinggi keseluruhan hamburger */
+}
+
+.hamburger-icon .line {
+    width: 100%;
+    height: 4px;
+    /* Ketebalan garis */
+    background-color: white;
+    /* Warna garis */
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect untuk hamburger */
+.hamburger-icon:hover .line {
+    background-color: #ffcc00;
+    /* Warna gold saat hover */
+}
+
+/* Styling untuk Navbar */
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #ffcc00 !important;
+    font-weight: bold;
+}
+
+/* Tombol Login */
+.btn-outline-light {
+    border: 1px solid #fff;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+/* Responsif untuk Tampilan Kecil */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+        /* Ukuran font lebih kecil */
+    }
+}
+
+/* Styling untuk input pencarian di navbar */
+.navbar .form-control {
+    width: 200px;
+    /* Lebar input pencarian */
+    border-radius: 25px;
+    /* Sudut melengkung */
+    padding-left: 10px;
+    /* Ruang pada kiri untuk ikon pencarian */
+    transition: width 0.3s ease;
+}
+
+.navbar .form-control:focus {
+    width: 250px;
+    /* Lebar lebih besar ketika fokus */
+    box-shadow: 0 0 5px rgba(255, 204, 0, 0.8);
+    /* Efek saat fokus */
+}
+
+.navbar .btn-outline-light {
+    border-radius: 25px;
+    /* Sudut melengkung pada tombol */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #28a745 !important;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-toggler {
+    border: none;
+    /* Menghilangkan border default */
+    padding: 0;
+    background: transparent;
+}
+
+/* Hamburger Menu (Tiga Garis) */
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    /* Lebar keseluruhan hamburger */
+    height: 22px;
+    /* Tinggi keseluruhan hamburger */
+}
+
+.hamburger-icon .line {
+    width: 100%;
+    height: 4px;
+    /* Ketebalan garis */
+    background-color: white;
+    /* Warna garis */
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect untuk hamburger */
+.hamburger-icon:hover .line {
+    background-color: #ffcc00;
+    /* Warna gold saat hover */
+}
+
+/* Styling untuk Navbar */
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #ffcc00 !important;
+    font-weight: bold;
+}
+
+/* Tombol Login */
+.btn-outline-light {
+    border: 1px solid #fff;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+/* Responsif untuk Tampilan Kecil */
+@media (max-width: 768px) {
+    .navbar .form-control {
+        width: 150px;
+        /* Lebar input lebih kecil di perangkat kecil */
+    }
+}
+
+/* Menyesuaikan ukuran kolom pencarian */
+.navbar .form-control {
+    width: 60px;
+    /* Ukuran lebih kecil */
+    transition: width 0.3s ease;
+    /* Efek transisi ketika ukuran berubah */
+}
+
+/* Menambahkan aturan jika form perlu ditampilkan secara penuh */
+.navbar .form-control.expanded {
+    width: 200px;
+    /* Ukuran penuh ketika form terbuka */
+}
+
+/* Styling untuk Card dan Icon */
+.contact-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-card-body {
+    padding: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #28a745;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #ffcc00;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border-radius: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+}
+
+.contact-form button {
+    background-color: #28a745;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #218838;
+}
+
+/* Styling untuk navbar dan footer */
+.navbar {
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.text-gradient {
+    background: linear-gradient(45deg, #ffcc00, #28a745);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Mengubah ukuran font navbar-brand */
+.navbar-brand {
+    font-size: 1rem;
+    /* Anda bisa menyesuaikan nilai sesuai keinginan */
+}
+
+/* Flash Sale and Popular Games Image */
+.card-img-top {
+    object-fit: cover;
+    /* This ensures the image covers the area without distortion */
+    height: 200px;
+    /* Set a fixed height for the images */
+    width: 100%;
+    /* Ensure it takes full width of the card */
+}
+
+footer {
+    background-color: #343a40;
+    /* Dark background */
+    color: #ffffff;
+    /* White text color */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+footer p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #00bcd4;
+    /* Highlight color on hover */
+}
+
+footer .bi {
+    transition: transform 0.3s ease;
+}
+
+footer .bi:hover {
+    transform: scale(1.2);
+    /* Scale icon on hover */
+}
+
+footer .social-icons a {
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+footer .text-center {
+    font-size: 0.85rem;
+    color: #ffffff;
+}
+
+footer .text-center a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+footer .text-center a:hover {
+    color: #00bcd4;
+    /* Hover color for the powered by link */
+}
